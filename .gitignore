@@ -1,0 +1,8 @@
+Baitap-NT106/ 
+.vs/ 
+bin/ 
+obj/ 
+*.user 
+*.suo 
+*.mdf 
+*.ldf 
