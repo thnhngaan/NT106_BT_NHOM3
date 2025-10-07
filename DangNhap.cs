@@ -174,6 +174,9 @@ namespace NT1062._2
             if (modify.Accounts(query).Count != 0)
             {
                 MessageBox.Show("Đăng nhập thành công!");
+                Home homeForm = new Home();
+                homeForm.Show();
+                this.Hide();
             }
             else
             {

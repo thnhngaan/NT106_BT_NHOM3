@@ -52,7 +52,7 @@ namespace NT1062._2
             label8.AutoSize = true;
             label8.BackColor = SystemColors.GradientActiveCaption;
             label8.Font = new Font("Arial Narrow", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(316, 662);
+            label8.Location = new Point(278, 533);
             label8.Name = "label8";
             label8.Size = new Size(88, 16);
             label8.TabIndex = 44;
@@ -61,7 +61,7 @@ namespace NT1062._2
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(217, 441);
+            textBox2.Location = new Point(179, 312);
             textBox2.Margin = new Padding(3, 2, 3, 2);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
@@ -71,7 +71,7 @@ namespace NT1062._2
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(217, 368);
+            textBox1.Location = new Point(179, 239);
             textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -84,7 +84,7 @@ namespace NT1062._2
             label2.AutoSize = true;
             label2.BackColor = SystemColors.GradientActiveCaption;
             label2.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(213, 415);
+            label2.Location = new Point(175, 286);
             label2.Name = "label2";
             label2.Size = new Size(81, 18);
             label2.TabIndex = 33;
@@ -97,7 +97,7 @@ namespace NT1062._2
             label1.AutoSize = true;
             label1.BackColor = SystemColors.GradientActiveCaption;
             label1.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(213, 341);
+            label1.Location = new Point(175, 212);
             label1.Name = "label1";
             label1.Size = new Size(126, 18);
             label1.TabIndex = 32;
@@ -108,7 +108,7 @@ namespace NT1062._2
             // pictureBox1
             // 
             pictureBox1.BackColor = SystemColors.GradientActiveCaption;
-            pictureBox1.Location = new Point(191, 192);
+            pictureBox1.Location = new Point(153, 63);
             pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(352, 580);
@@ -123,7 +123,7 @@ namespace NT1062._2
             panel1.Controls.Add(checkBox1);
             panel1.Controls.Add(label3);
             panel1.ForeColor = Color.Black;
-            panel1.Location = new Point(217, 508);
+            panel1.Location = new Point(179, 379);
             panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
             panel1.Size = new Size(228, 65);
@@ -158,7 +158,7 @@ namespace NT1062._2
             label4.BackColor = Color.SteelBlue;
             label4.Font = new Font("Arial", 18F, FontStyle.Bold);
             label4.ImageAlign = ContentAlignment.BottomCenter;
-            label4.Location = new Point(191, 192);
+            label4.Location = new Point(153, 63);
             label4.Name = "label4";
             label4.Size = new Size(352, 105);
             label4.TabIndex = 50;
@@ -180,7 +180,7 @@ namespace NT1062._2
             button1.BackColor = Color.SteelBlue;
             button1.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.Black;
-            button1.Location = new Point(217, 595);
+            button1.Location = new Point(179, 466);
             button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
             button1.Size = new Size(113, 42);
@@ -194,7 +194,7 @@ namespace NT1062._2
             button2.BackColor = Color.SteelBlue;
             button2.Font = new Font("Arial", 7.8F, FontStyle.Bold);
             button2.ForeColor = Color.Black;
-            button2.Location = new Point(292, 691);
+            button2.Location = new Point(254, 562);
             button2.Margin = new Padding(4, 5, 4, 5);
             button2.Name = "button2";
             button2.Size = new Size(151, 42);
@@ -207,7 +207,8 @@ namespace NT1062._2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(735, 1058);
+            BackgroundImage = NT106_2._2.Properties.Resources.download;
+            ClientSize = new Size(688, 706);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label5);
