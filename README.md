@@ -53,6 +53,14 @@ Chức năng **Đăng ký** và **Đăng nhập người dùng** cho phép ngư�
   - Nếu trùng khớp → Đăng nhập thành công.  
   - Nếu sai → Thông báo lỗi cho người dùng.
 
+ <img width="738" height="689" alt="image" src="https://github.com/user-attachments/assets/1abc4590-c9fc-4455-8f7f-0ea74b1efe8c" /> <br>
+ <img width="545" height="761" alt="image" src="https://github.com/user-attachments/assets/d9e38729-8327-47b0-99dc-625c861837f8" /> <br>
+ <img width="692" height="475" alt="image" src="https://github.com/user-attachments/assets/bedef0dc-48a6-4082-bf0b-d9fec9b93e46" /> <br>
+
+ 
+
+
+
 ---
 
 
