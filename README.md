@@ -15,8 +15,15 @@
 
 Đây là *repository* chứa **bài tập tuần 3 (Đăng ký và Đăng nhập)**.  
 Vì bài này khá ngắn nên tụi em quyết định làm trước 2 thành viên và tuần sau sẽ là 3 thành viên còn lại.  
-Vì là lần đầu làm việc trên Git cũng như teamwork gửi code nên còn nhiều thiếu sót.  
-Tụi em sẽ cố gắng cải thiện hơn ở những dự án sau để phân bố các file khoa học nhất. 
+Vì là lần đầu làm việc trên Git cũng như teamwork gửi code nên còn nhiều thiếu sót, tui em sẽ cố gắng hơn ở những bài sau
+
+---
+
+## ⚙️ Hướng dẫn sử dụng
+
+1. **Tải và giải nén** source code từ GitHub.  
+2. **Mở dự án** trong **Visual Studio 2022** (hoặc phiên bản tương đương).  
+3. Kết nối **SQL Server** theo chuỗi kết nối được cấu hình sẵn trong project.    
 
 ---
 
