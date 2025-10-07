@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\NT106.Q12\\Baitap-NT106\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\nt106.q12\\baitap-nt106\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\nt106.q12\\baitap-nt106\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\nt106.q12\\baitap-nt106\\nt106_2.2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:nt106_2.2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\nt106.q12\\baitap-nt106\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\nt106.q12\\baitap-nt106\\home.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:home.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +31,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\NT106.Q12\\Baitap-NT106\\Home.cs",
+              "RelativeDocumentMoniker": "Home.cs",
+              "ToolTip": "C:\\NT106.Q12\\Baitap-NT106\\Home.cs [Design]",
+              "RelativeToolTip": "Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T20:04:18.011Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.resx",
+              "DocumentMoniker": "C:\\NT106.Q12\\Baitap-NT106\\Home.resx",
+              "RelativeDocumentMoniker": "Home.resx",
+              "ToolTip": "C:\\NT106.Q12\\Baitap-NT106\\Home.resx",
+              "RelativeToolTip": "Home.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-10-07T20:03:55.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\NT106.Q12\\Baitap-NT106\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "Properties\\Resources.resx",
@@ -41,7 +73,8 @@
               "ToolTip": "C:\\NT106.Q12\\Baitap-NT106\\NT106_2.2.csproj",
               "RelativeToolTip": "NT106_2.2.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-07T19:46:04.01Z"
+              "WhenOpened": "2025-10-07T19:46:04.01Z",
+              "EditorCaption": ""
             }
           ]
         }
