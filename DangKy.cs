@@ -173,7 +173,6 @@ namespace NT1062._2a
                                            $"VALUES ('{tenTK}', '{hashedPassword}', '{email}', '{SDT}', '{fullname}')";
                     modify.Command(query);
                     MessageBox.Show("Đăng ký thành công!");
-                    this.Close();
                     new DangNhap().ShowDialog();
                     this.Close();
                 }
