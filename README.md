@@ -23,7 +23,9 @@ Vì là lần đầu làm việc trên Git cũng như teamwork gửi code nên c
 
 1. **Tải và giải nén** source code từ GitHub.  
 2. **Mở dự án** trong **Visual Studio 2022** (hoặc phiên bản tương đương).  
-3. Kết nối **SQL Server** theo chuỗi kết nối được cấu hình sẵn trong project.    
+3. Kết nối **SQL Server localDB** theo chuỗi kết nối được cấu hình sẵn trong project.    
+4. Cần thay đổi **ConnectionString** sao cho phù hợp với máy để kết nối với database..
+<img width="1905" height="883" alt="image" src="https://github.com/user-attachments/assets/5d4a669d-3936-4b50-bb72-b633bb312a57" />
 
 ---
 
@@ -31,7 +33,7 @@ Vì là lần đầu làm việc trên Git cũng như teamwork gửi code nên c
 
 Chức năng **Đăng ký** và **Đăng nhập người dùng** cho phép người dùng:
 - Tạo tài khoản cá nhân.  
-- Lưu thông tin vào cơ sở dữ liệu **SQL Server**.  
+- Lưu thông tin vào cơ sở dữ liệu.  
 - Sử dụng tài khoản đó để truy cập hệ thống.
 
 ---
@@ -41,7 +43,7 @@ Chức năng **Đăng ký** và **Đăng nhập người dùng** cho phép ngư�
 **Mô tả:**
 - Người dùng điền các thông tin cần thiết (Tên đăng nhập, Mật khẩu, Họ tên, Email, Số điện thoại, …) vào form đăng ký.  
 - Kiểm tra hợp lệ dữ liệu (không bỏ trống, định dạng email, v.v.).  
-- Nếu hợp lệ, lưu thông tin người dùng vào bảng **Users** trong **SQL Server**.
+- Nếu hợp lệ, lưu thông tin người dùng vào bảng **Users**.
 
 ---
 
@@ -54,7 +56,7 @@ Chức năng **Đăng ký** và **Đăng nhập người dùng** cho phép ngư�
   - Nếu sai → Thông báo lỗi cho người dùng.
 
  <img width="738" height="689" alt="image" src="https://github.com/user-attachments/assets/1abc4590-c9fc-4455-8f7f-0ea74b1efe8c" /> <br>
- <img width="545" height="761" alt="image" src="https://github.com/user-attachments/assets/d9e38729-8327-47b0-99dc-625c861837f8" /> <br>
+<img width="659" height="661" alt="image" src="https://github.com/user-attachments/assets/fa6aca12-6222-45ad-a53f-55eb5e165056" /> <br>
  <img width="692" height="475" alt="image" src="https://github.com/user-attachments/assets/bedef0dc-48a6-4082-bf0b-d9fec9b93e46" /> <br>
 
  
