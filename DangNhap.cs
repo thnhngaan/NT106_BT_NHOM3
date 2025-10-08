@@ -19,9 +19,8 @@ namespace NT1062._2
         public DangNhap()
         {
             InitializeComponent();
-            textBox2.UseSystemPasswordChar = true;
         }
-        private Form currentFormChild;
+
         private void DangNhap_Load(object sender, EventArgs e)
         {
 
@@ -152,6 +151,8 @@ namespace NT1062._2
             }
         }
 
+        private Form currentFormChild;
+
         private void button1_Click(object sender, EventArgs e)
         {
             string username = textBox1.Text.Trim();
@@ -171,7 +172,7 @@ namespace NT1062._2
             Modify modify = new Modify();
             string hashedPassword = hashpassword.ToSHA256(password);
 
-            string query = $"SELECT * FROM TAIKHOAN WHERE USERNAME = '{username}' AND PASSWORD = '{hashedPassword}'";
+            string query = $"SELECT * FROM USERS WHERE USERNAME = '{username}' AND PASSWORD = '{hashedPassword}'";
             if (modify.Accounts(query).Count != 0)
             {
                 MessageBox.Show("Đăng nhập thành công!");

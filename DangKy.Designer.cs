@@ -52,7 +52,7 @@ namespace NT1062._2a
             // pictureBox1
             // 
             pictureBox1.BackColor = SystemColors.GradientActiveCaption;
-            pictureBox1.Location = new Point(117, 34);
+            pictureBox1.Location = new Point(128, 42);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(352, 622);
             pictureBox1.TabIndex = 12;
@@ -61,49 +61,49 @@ namespace NT1062._2a
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(143, 499);
+            textBox6.Location = new Point(153, 507);
             textBox6.Name = "textBox6";
-            textBox6.Size = new Size(259, 25);
+            textBox6.Size = new Size(224, 25);
             textBox6.TabIndex = 24;
             textBox6.TextChanged += textBox6_TextChanged;
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(143, 434);
+            textBox5.Location = new Point(153, 442);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(259, 25);
+            textBox5.Size = new Size(224, 25);
             textBox5.TabIndex = 23;
             textBox5.TextChanged += textBox5_TextChanged;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(143, 374);
+            textBox4.Location = new Point(153, 382);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(259, 25);
+            textBox4.Size = new Size(224, 25);
             textBox4.TabIndex = 22;
             textBox4.TextChanged += textBox4_TextChanged;
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(143, 313);
+            textBox3.Location = new Point(153, 321);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(259, 25);
+            textBox3.Size = new Size(224, 25);
             textBox3.TabIndex = 21;
             textBox3.TextChanged += textBox3_TextChanged_1;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(143, 253);
+            textBox2.Location = new Point(153, 261);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(259, 25);
+            textBox2.Size = new Size(224, 25);
             textBox2.TabIndex = 20;
             textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(143, 194);
+            textBox1.Location = new Point(153, 202);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(259, 25);
+            textBox1.Size = new Size(224, 25);
             textBox1.TabIndex = 19;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
@@ -112,7 +112,7 @@ namespace NT1062._2a
             label6.AutoSize = true;
             label6.BackColor = SystemColors.GradientActiveCaption;
             label6.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(140, 476);
+            label6.Location = new Point(150, 484);
             label6.Name = "label6";
             label6.Size = new Size(140, 18);
             label6.TabIndex = 18;
@@ -124,7 +124,7 @@ namespace NT1062._2a
             label5.AutoSize = true;
             label5.BackColor = SystemColors.GradientActiveCaption;
             label5.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(140, 413);
+            label5.Location = new Point(150, 421);
             label5.Name = "label5";
             label5.Size = new Size(81, 18);
             label5.TabIndex = 17;
@@ -136,7 +136,7 @@ namespace NT1062._2a
             label4.AutoSize = true;
             label4.BackColor = SystemColors.GradientActiveCaption;
             label4.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(140, 353);
+            label4.Location = new Point(150, 361);
             label4.Name = "label4";
             label4.Size = new Size(118, 18);
             label4.TabIndex = 16;
@@ -148,7 +148,7 @@ namespace NT1062._2a
             label3.AutoSize = true;
             label3.BackColor = SystemColors.GradientActiveCaption;
             label3.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(140, 292);
+            label3.Location = new Point(150, 300);
             label3.Name = "label3";
             label3.Size = new Size(111, 18);
             label3.TabIndex = 15;
@@ -160,7 +160,7 @@ namespace NT1062._2a
             label2.AutoSize = true;
             label2.BackColor = SystemColors.GradientActiveCaption;
             label2.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(140, 232);
+            label2.Location = new Point(150, 240);
             label2.Name = "label2";
             label2.Size = new Size(84, 18);
             label2.TabIndex = 14;
@@ -173,7 +173,7 @@ namespace NT1062._2a
             label1.AutoSize = true;
             label1.BackColor = SystemColors.GradientActiveCaption;
             label1.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(140, 173);
+            label1.Location = new Point(150, 181);
             label1.Name = "label1";
             label1.Size = new Size(80, 18);
             label1.TabIndex = 13;
@@ -185,7 +185,7 @@ namespace NT1062._2a
             // 
             label7.AutoSize = true;
             label7.Dock = DockStyle.Right;
-            label7.Location = new Point(575, 0);
+            label7.Location = new Point(608, 0);
             label7.Name = "label7";
             label7.Size = new Size(0, 18);
             label7.TabIndex = 26;
@@ -195,11 +195,11 @@ namespace NT1062._2a
             label8.AutoSize = true;
             label8.BackColor = SystemColors.GradientActiveCaption;
             label8.Font = new Font("Arial Narrow", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(183, 598);
+            label8.Location = new Point(193, 606);
             label8.Name = "label8";
-            label8.Size = new Size(137, 16);
+            label8.Size = new Size(140, 16);
             label8.TabIndex = 27;
-            label8.Text = "Bạn đã có tài khoản chưa?";
+            label8.Text = "Bạn đã có tài khoản chưa? ";
             label8.Click += label8_Click;
             // 
             // label9
@@ -208,7 +208,7 @@ namespace NT1062._2a
             label9.AutoSize = true;
             label9.BackColor = SystemColors.GradientActiveCaption;
             label9.Font = new Font("Arial", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(230, 136);
+            label9.Location = new Point(240, 144);
             label9.Name = "label9";
             label9.Size = new Size(126, 21);
             label9.TabIndex = 28;
@@ -220,7 +220,7 @@ namespace NT1062._2a
             // 
             label10.BackColor = Color.SteelBlue;
             label10.Font = new Font("Arial", 18F, FontStyle.Bold);
-            label10.Location = new Point(117, 34);
+            label10.Location = new Point(127, 42);
             label10.Name = "label10";
             label10.Size = new Size(352, 88);
             label10.TabIndex = 31;
@@ -232,7 +232,7 @@ namespace NT1062._2a
             // 
             button1.BackColor = Color.SteelBlue;
             button1.Font = new Font("Arial", 10F, FontStyle.Bold);
-            button1.Location = new Point(218, 560);
+            button1.Location = new Point(228, 568);
             button1.Name = "button1";
             button1.Size = new Size(149, 35);
             button1.TabIndex = 32;
@@ -245,7 +245,8 @@ namespace NT1062._2a
             linkLabel1.AutoSize = true;
             linkLabel1.BackColor = SystemColors.GradientActiveCaption;
             linkLabel1.Font = new Font("Arial Narrow", 7.8F);
-            linkLabel1.Location = new Point(316, 598);
+            linkLabel1.LinkColor = SystemColors.Highlight;
+            linkLabel1.Location = new Point(329, 606);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(86, 16);
             linkLabel1.TabIndex = 33;
@@ -258,7 +259,7 @@ namespace NT1062._2a
             AutoScaleDimensions = new SizeF(9F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = NT106_2._2.Properties.Resources.download;
-            ClientSize = new Size(575, 693);
+            ClientSize = new Size(608, 713);
             Controls.Add(linkLabel1);
             Controls.Add(button1);
             Controls.Add(label10);

@@ -100,9 +100,9 @@ namespace NT1062._2
             label1.Font = new Font("Arial", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(175, 212);
             label1.Name = "label1";
-            label1.Size = new Size(126, 18);
+            label1.Size = new Size(80, 18);
             label1.TabIndex = 32;
-            label1.Text = "Username/Email:";
+            label1.Text = "Username";
             label1.TextAlign = ContentAlignment.BottomLeft;
             label1.Click += label1_Click;
             // 
@@ -209,7 +209,7 @@ namespace NT1062._2
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = NT106_2._2.Properties.Resources.download;
-            ClientSize = new Size(688, 706);
+            ClientSize = new Size(660, 706);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label5);

@@ -161,7 +161,7 @@ namespace NT1062._2a
 
             Modify modify = new Modify();
             string hashedPassword = hashpassword.ToSHA256(matKhau);
-            if (modify.Accounts("Select * from TAIKHOAN where Email = '" + email + "'").Count != 0)
+            if (modify.Accounts("Select * from USERS where Email = '" + email + "'").Count != 0)
             {
                 MessageBox.Show("Email này đã được đăng ký, vui lòng nhập email khác!");
             }
@@ -169,7 +169,7 @@ namespace NT1062._2a
             {
                 try
                 {
-                    string query = $"INSERT INTO TAIKHOAN (USERNAME, PASSWORD, EMAIL, MOBILENUMBER, FULLNAME) " +
+                    string query = $"INSERT INTO USERS (USERNAME, PASSWORD, EMAIL, MOBILENUMBER, FULLNAME) " +
                                            $"VALUES ('{tenTK}', '{hashedPassword}', '{email}', '{SDT}', '{fullname}')";
                     modify.Command(query);
                     MessageBox.Show("Đăng ký thành công!");

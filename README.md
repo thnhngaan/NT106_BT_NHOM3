@@ -4,7 +4,7 @@
 | MSSV | Họ và tên | Vai trò |
 |------|------------|----------|
 | 24521137 | Trương Thị Thanh Ngân | Nhóm trưởng |
-| 24520933 | Nguyễn Hiểu Lam | Thành viên |
+| 2452093  | Nguyễn Hiểu Lam | Thành viên |
 | 24521144 | Nguyễn Hữu Nghĩa | Thành viên |
 | 24520982 | Lê Văn Lộc | Thành viên |
 | 24521013 | Tạ Đức Long | Thành viên |
