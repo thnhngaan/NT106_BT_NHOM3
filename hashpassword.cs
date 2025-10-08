@@ -15,7 +15,7 @@ namespace NT106_2._2
             using var sha256 = SHA256.Create();
             byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(input));
 
-            var sb = new StringBuilder();   
+            var sb = new StringBuilder();
             for (int i = 0; i < bytes.Length; i++)
             {
                 sb.Append(bytes[i].ToString("x2"));

@@ -14,7 +14,7 @@ using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 namespace NT1062._2a
 {
-    public partial class DangKy: Form
+    public partial class DangKy : Form
     {
         public DangKy()
         {
@@ -118,18 +118,18 @@ namespace NT1062._2a
         {
             string pattern = @"^[a-zA-Z0-9._%+-]+@gmail\.com(\.vn)?$";
             return Regex.IsMatch(email, pattern);
-        }   
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string tenTK= textBox2.Text;
+            string tenTK = textBox2.Text;
             string matKhau = textBox5.Text;
             string nhapLaiMK = textBox6.Text;
             string email = textBox3.Text;
             string fullname = textBox1.Text;
             string SDT = textBox4.Text;
 
-            if (fullname=="")
+            if (fullname == "")
             {
                 MessageBox.Show("Vui lòng nhập tên tài khoản: ");
                 return;
@@ -161,7 +161,7 @@ namespace NT1062._2a
 
             Modify modify = new Modify();
             string hashedPassword = hashpassword.ToSHA256(matKhau);
-            if (modify.Accounts("Select * from USERS where Email = '" + email + "'").Count != 0)
+            if (modify.Accounts("Select * from TAIKHOAN where Email = '" + email + "'").Count != 0)
             {
                 MessageBox.Show("Email này đã được đăng ký, vui lòng nhập email khác!");
             }
@@ -169,11 +169,11 @@ namespace NT1062._2a
             {
                 try
                 {
-                    string query = $"INSERT INTO USERS (USERNAME, PASSWORD, EMAIL, MOBILENUMBER, FULLNAME) " +
+                    string query = $"INSERT INTO TAIKHOAN (USERNAME, PASSWORD, EMAIL, MOBILENUMBER, FULLNAME) " +
                                            $"VALUES ('{tenTK}', '{hashedPassword}', '{email}', '{SDT}', '{fullname}')";
                     modify.Command(query);
                     MessageBox.Show("Đăng ký thành công!");
-                    this.Hide();
+                    this.Close();
                     new DangNhap().ShowDialog();
                     this.Close();
                 }
@@ -182,6 +182,12 @@ namespace NT1062._2a
                     MessageBox.Show("Tên tài khoản này đã được đăng ký, vui lòng đăng ký tên tài khoản khác!");
                 }
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Close();
+
         }
     }
 }

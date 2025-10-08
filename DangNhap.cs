@@ -19,8 +19,9 @@ namespace NT1062._2
         public DangNhap()
         {
             InitializeComponent();
+            textBox2.UseSystemPasswordChar = true;
         }
-
+        private Form currentFormChild;
         private void DangNhap_Load(object sender, EventArgs e)
         {
 
@@ -170,13 +171,11 @@ namespace NT1062._2
             Modify modify = new Modify();
             string hashedPassword = hashpassword.ToSHA256(password);
 
-            string query = $"SELECT * FROM USERS WHERE USERNAME = '{username}' AND PASSWORD = '{hashedPassword}'";
+            string query = $"SELECT * FROM TAIKHOAN WHERE USERNAME = '{username}' AND PASSWORD = '{hashedPassword}'";
             if (modify.Accounts(query).Count != 0)
             {
                 MessageBox.Show("Đăng nhập thành công!");
-                Home homeForm = new Home();
-                homeForm.Show();
-                this.Hide();
+                OpenChildForm(new Home());
             }
             else
             {
@@ -185,10 +184,24 @@ namespace NT1062._2
         }
         private void buttonDangKy_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            DangKy dangKyForm = new DangKy();
-            dangKyForm.ShowDialog();
-            this.Show();
+            OpenChildForm(new DangKy());
+        }
+
+        private void OpenChildForm(Form childForm)
+        {
+            if (currentFormChild != null)
+                currentFormChild.Close();
+
+            currentFormChild = childForm;
+
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+
+            this.Controls.Add(childForm);
+            this.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
         }
 
     }

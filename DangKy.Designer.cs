@@ -45,6 +45,7 @@ namespace NT1062._2a
             label9 = new Label();
             label10 = new Label();
             button1 = new Button();
+            linkLabel1 = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -62,7 +63,7 @@ namespace NT1062._2a
             // 
             textBox6.Location = new Point(143, 499);
             textBox6.Name = "textBox6";
-            textBox6.Size = new Size(224, 25);
+            textBox6.Size = new Size(259, 25);
             textBox6.TabIndex = 24;
             textBox6.TextChanged += textBox6_TextChanged;
             // 
@@ -70,7 +71,7 @@ namespace NT1062._2a
             // 
             textBox5.Location = new Point(143, 434);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(224, 25);
+            textBox5.Size = new Size(259, 25);
             textBox5.TabIndex = 23;
             textBox5.TextChanged += textBox5_TextChanged;
             // 
@@ -78,7 +79,7 @@ namespace NT1062._2a
             // 
             textBox4.Location = new Point(143, 374);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(224, 25);
+            textBox4.Size = new Size(259, 25);
             textBox4.TabIndex = 22;
             textBox4.TextChanged += textBox4_TextChanged;
             // 
@@ -86,7 +87,7 @@ namespace NT1062._2a
             // 
             textBox3.Location = new Point(143, 313);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(224, 25);
+            textBox3.Size = new Size(259, 25);
             textBox3.TabIndex = 21;
             textBox3.TextChanged += textBox3_TextChanged_1;
             // 
@@ -94,7 +95,7 @@ namespace NT1062._2a
             // 
             textBox2.Location = new Point(143, 253);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(224, 25);
+            textBox2.Size = new Size(259, 25);
             textBox2.TabIndex = 20;
             textBox2.TextChanged += textBox2_TextChanged;
             // 
@@ -102,7 +103,7 @@ namespace NT1062._2a
             // 
             textBox1.Location = new Point(143, 194);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(224, 25);
+            textBox1.Size = new Size(259, 25);
             textBox1.TabIndex = 19;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
@@ -196,9 +197,9 @@ namespace NT1062._2a
             label8.Font = new Font("Arial Narrow", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label8.Location = new Point(183, 598);
             label8.Name = "label8";
-            label8.Size = new Size(219, 16);
+            label8.Size = new Size(137, 16);
             label8.TabIndex = 27;
-            label8.Text = "Bạn đã có tài khoản chưa? Bấm đăng nhập";
+            label8.Text = "Bạn đã có tài khoản chưa?";
             label8.Click += label8_Click;
             // 
             // label9
@@ -239,12 +240,26 @@ namespace NT1062._2a
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.BackColor = SystemColors.GradientActiveCaption;
+            linkLabel1.Font = new Font("Arial Narrow", 7.8F);
+            linkLabel1.Location = new Point(316, 598);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(86, 16);
+            linkLabel1.TabIndex = 33;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Bấm đăng nhập";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
             // DangKy
             // 
             AutoScaleDimensions = new SizeF(9F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = NT106_2._2.Properties.Resources.download;
             ClientSize = new Size(575, 693);
+            Controls.Add(linkLabel1);
             Controls.Add(button1);
             Controls.Add(label10);
             Controls.Add(label9);
@@ -293,6 +308,7 @@ namespace NT1062._2a
         private System.Windows.Forms.Label label9;
         private Label label10;
         private Button button1;
+        private LinkLabel linkLabel1;
     }
 }
 

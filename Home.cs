@@ -20,9 +20,7 @@ namespace NT106_2._2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DangNhap dn = new DangNhap();
-            dn.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }

@@ -10,7 +10,7 @@ namespace NT106_2._2
 {
     internal class Connection
     {
-        private static string stringConnection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\DELL\source\repos\NT106_2.2\Database1.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True";
+        private static string stringConnection = @"Server=localhost;Database=USERS;User Id=sa;Password=JoJo@368108;TrustServerCertificate=True;";
         public static SqlConnection GetSqlConnection()
         {
             return new SqlConnection(stringConnection);
