@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LapTrinhMangCanBan NT106.Q12\\Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B041A234-4D8A-4AD1-97EC-1E2294FB709F}|Server.csproj|d:\\laptrinhmangcanban nt106.q12\\server\\tcpserver_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B041A234-4D8A-4AD1-97EC-1E2294FB709F}|Server.csproj|solutionrelative:tcpserver_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B041A234-4D8A-4AD1-97EC-1E2294FB709F}|Server.csproj|d:\\laptrinhmangcanban nt106.q12\\server\\tcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B041A234-4D8A-4AD1-97EC-1E2294FB709F}|Server.csproj|solutionrelative:tcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B041A234-4D8A-4AD1-97EC-1E2294FB709F}|Server.csproj|D:\\LapTrinhMangCanBan NT106.Q12\\Server\\tcpserver_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B041A234-4D8A-4AD1-97EC-1E2294FB709F}|Server.csproj|solutionrelative:tcpserver_register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B041A234-4D8A-4AD1-97EC-1E2294FB709F}|Server.csproj|D:\\LapTrinhMangCanBan NT106.Q12\\Server\\tcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B041A234-4D8A-4AD1-97EC-1E2294FB709F}|Server.csproj|solutionrelative:tcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TCPServer_register.cs",
+              "DocumentMoniker": "D:\\LapTrinhMangCanBan NT106.Q12\\Server\\TCPServer_register.cs",
+              "RelativeDocumentMoniker": "TCPServer_register.cs",
+              "ToolTip": "D:\\LapTrinhMangCanBan NT106.Q12\\Server\\TCPServer_register.cs",
+              "RelativeToolTip": "TCPServer_register.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAJ8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:34:48.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TCPServer_register.cs [Design]",
+              "DocumentMoniker": "D:\\LapTrinhMangCanBan NT106.Q12\\Server\\TCPServer_register.cs",
+              "RelativeDocumentMoniker": "TCPServer_register.cs",
+              "ToolTip": "D:\\LapTrinhMangCanBan NT106.Q12\\Server\\TCPServer_register.cs [Design]",
+              "RelativeToolTip": "TCPServer_register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:33:29.203Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TCPServer.cs",
+              "DocumentMoniker": "D:\\LapTrinhMangCanBan NT106.Q12\\Server\\TCPServer.cs",
+              "RelativeDocumentMoniker": "TCPServer.cs",
+              "ToolTip": "D:\\LapTrinhMangCanBan NT106.Q12\\Server\\TCPServer.cs",
+              "RelativeToolTip": "TCPServer.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAvwIkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:27:19.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TCPServer.cs [Design]",
+              "DocumentMoniker": "D:\\LapTrinhMangCanBan NT106.Q12\\Server\\TCPServer.cs",
+              "RelativeDocumentMoniker": "TCPServer.cs",
+              "ToolTip": "D:\\LapTrinhMangCanBan NT106.Q12\\Server\\TCPServer.cs [Design]",
+              "RelativeToolTip": "TCPServer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T16:10:59.359Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

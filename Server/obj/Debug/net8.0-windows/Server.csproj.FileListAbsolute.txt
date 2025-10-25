@@ -1,0 +1,17 @@
+D:\LapTrinhMangCanBan NT106.Q12\Server\bin\Debug\net8.0-windows\Server.exe
+D:\LapTrinhMangCanBan NT106.Q12\Server\bin\Debug\net8.0-windows\Server.deps.json
+D:\LapTrinhMangCanBan NT106.Q12\Server\bin\Debug\net8.0-windows\Server.runtimeconfig.json
+D:\LapTrinhMangCanBan NT106.Q12\Server\bin\Debug\net8.0-windows\Server.dll
+D:\LapTrinhMangCanBan NT106.Q12\Server\bin\Debug\net8.0-windows\Server.pdb
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\Server.csproj.GenerateResource.cache
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\Server.AssemblyInfoInputs.cache
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\Server.AssemblyInfo.cs
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\Server.csproj.CoreCompileInputs.cache
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\Server.dll
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\refint\Server.dll
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\Server.pdb
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\Server.genruntimeconfig.cache
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\ref\Server.dll
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\Server.TCPServer_login.resources
+D:\LapTrinhMangCanBan NT106.Q12\Server\obj\Debug\net8.0-windows\Server.TCPServer_register.resources
