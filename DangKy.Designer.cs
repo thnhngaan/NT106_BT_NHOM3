@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.Configuration;
+using System.Windows.Forms;
 
 namespace NT1062._2a
 {
@@ -28,12 +29,12 @@ namespace NT1062._2a
         private void InitializeComponent()
         {
             pictureBox1 = new PictureBox();
-            textBox6 = new TextBox();
-            textBox5 = new TextBox();
-            textBox4 = new TextBox();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            confirmps = new TextBox();
+            ps = new TextBox();
+            sdt = new TextBox();
+            email = new TextBox();
+            username = new TextBox();
+            fullname = new TextBox();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
@@ -46,7 +47,11 @@ namespace NT1062._2a
             label10 = new Label();
             button1 = new Button();
             linkLabel1 = new LinkLabel();
+            pseye = new Button();
+            cfps = new Panel();
+            cfpseye = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            cfps.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
@@ -59,53 +64,57 @@ namespace NT1062._2a
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // textBox6
+            // confirmps
             // 
-            textBox6.Location = new Point(153, 507);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(224, 25);
-            textBox6.TabIndex = 24;
-            textBox6.TextChanged += textBox6_TextChanged;
+            confirmps.Dock = DockStyle.Fill;
+            confirmps.Location = new Point(0, 0);
+            confirmps.Name = "confirmps";
+            confirmps.Size = new Size(226, 25);
+            confirmps.TabIndex = 24;
+            confirmps.UseSystemPasswordChar = true;
+            confirmps.TextChanged += textBox6_TextChanged;
             // 
-            // textBox5
+            // ps
             // 
-            textBox5.Location = new Point(153, 442);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(224, 25);
-            textBox5.TabIndex = 23;
-            textBox5.TextChanged += textBox5_TextChanged;
+            ps.Location = new Point(153, 449);
+            ps.Margin = new Padding(0);
+            ps.Name = "ps";
+            ps.Size = new Size(224, 25);
+            ps.TabIndex = 23;
+            ps.UseSystemPasswordChar = true;
+            ps.TextChanged += textBox5_TextChanged;
             // 
-            // textBox4
+            // sdt
             // 
-            textBox4.Location = new Point(153, 382);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(224, 25);
-            textBox4.TabIndex = 22;
-            textBox4.TextChanged += textBox4_TextChanged;
+            sdt.Location = new Point(153, 382);
+            sdt.Name = "sdt";
+            sdt.Size = new Size(224, 25);
+            sdt.TabIndex = 22;
+            sdt.TextChanged += textBox4_TextChanged;
             // 
-            // textBox3
+            // email
             // 
-            textBox3.Location = new Point(153, 321);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(224, 25);
-            textBox3.TabIndex = 21;
-            textBox3.TextChanged += textBox3_TextChanged_1;
+            email.Location = new Point(153, 321);
+            email.Name = "email";
+            email.Size = new Size(224, 25);
+            email.TabIndex = 21;
+            email.TextChanged += textBox3_TextChanged_1;
             // 
-            // textBox2
+            // username
             // 
-            textBox2.Location = new Point(153, 261);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(224, 25);
-            textBox2.TabIndex = 20;
-            textBox2.TextChanged += textBox2_TextChanged;
+            username.Location = new Point(153, 261);
+            username.Name = "username";
+            username.Size = new Size(224, 25);
+            username.TabIndex = 20;
+            username.TextChanged += textBox2_TextChanged;
             // 
-            // textBox1
+            // fullname
             // 
-            textBox1.Location = new Point(153, 202);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(224, 25);
-            textBox1.TabIndex = 19;
-            textBox1.TextChanged += textBox1_TextChanged;
+            fullname.Location = new Point(153, 202);
+            fullname.Name = "fullname";
+            fullname.Size = new Size(224, 25);
+            fullname.TabIndex = 19;
+            fullname.TextChanged += textBox1_TextChanged;
             // 
             // label6
             // 
@@ -194,12 +203,12 @@ namespace NT1062._2a
             // 
             label8.AutoSize = true;
             label8.BackColor = SystemColors.GradientActiveCaption;
-            label8.Font = new Font("Arial Narrow", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(193, 606);
+            label8.Font = new Font("Arial", 8F);
+            label8.Location = new Point(181, 606);
             label8.Name = "label8";
-            label8.Size = new Size(140, 16);
+            label8.Size = new Size(141, 16);
             label8.TabIndex = 27;
-            label8.Text = "Bạn đã có tài khoản chưa? ";
+            label8.Text = "Bạn đã có tài khoản?";
             label8.Click += label8_Click;
             // 
             // label9
@@ -208,7 +217,7 @@ namespace NT1062._2a
             label9.AutoSize = true;
             label9.BackColor = SystemColors.GradientActiveCaption;
             label9.Font = new Font("Arial", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(240, 144);
+            label9.Location = new Point(239, 148);
             label9.Name = "label9";
             label9.Size = new Size(126, 21);
             label9.TabIndex = 28;
@@ -232,9 +241,9 @@ namespace NT1062._2a
             // 
             button1.BackColor = Color.SteelBlue;
             button1.Font = new Font("Arial", 10F, FontStyle.Bold);
-            button1.Location = new Point(228, 568);
+            button1.Location = new Point(230, 563);
             button1.Name = "button1";
-            button1.Size = new Size(149, 35);
+            button1.Size = new Size(149, 36);
             button1.TabIndex = 32;
             button1.Text = "Đăng ký";
             button1.UseVisualStyleBackColor = false;
@@ -244,15 +253,54 @@ namespace NT1062._2a
             // 
             linkLabel1.AutoSize = true;
             linkLabel1.BackColor = SystemColors.GradientActiveCaption;
-            linkLabel1.Font = new Font("Arial Narrow", 7.8F);
+            linkLabel1.Font = new Font("Arial", 8F);
             linkLabel1.LinkColor = SystemColors.Highlight;
-            linkLabel1.Location = new Point(329, 606);
+            linkLabel1.Location = new Point(319, 606);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(86, 16);
+            linkLabel1.Size = new Size(107, 16);
             linkLabel1.TabIndex = 33;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Bấm đăng nhập";
             linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
+            // pseye
+            // 
+            pseye.BackColor = SystemColors.Window;
+            pseye.FlatAppearance.BorderSize = 0;
+            pseye.FlatStyle = FlatStyle.Flat;
+            pseye.Image = NT106_2._2.Properties.Resources.eye_close;
+            pseye.Location = new Point(355, 449);
+            pseye.Name = "pseye";
+            pseye.Size = new Size(24, 24);
+            pseye.TabIndex = 34;
+            pseye.TabStop = false;
+            pseye.UseVisualStyleBackColor = false;
+            pseye.Click += pseye_Click;
+            // 
+            // cfps
+            // 
+            cfps.Controls.Add(cfpseye);
+            cfps.Controls.Add(confirmps);
+            cfps.Location = new Point(153, 507);
+            cfps.Name = "cfps";
+            cfps.Size = new Size(226, 24);
+            cfps.TabIndex = 35;
+            // 
+            // cfpseye
+            // 
+            cfpseye.BackColor = SystemColors.Window;
+            cfpseye.Dock = DockStyle.Right;
+            cfpseye.FlatAppearance.BorderSize = 0;
+            cfpseye.FlatStyle = FlatStyle.Flat;
+            cfpseye.Font = new Font("Segoe MDL2 Assets", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            cfpseye.Image = NT106_2._2.Properties.Resources.eye_close;
+            cfpseye.Location = new Point(202, 0);
+            cfpseye.Name = "cfpseye";
+            cfpseye.Size = new Size(24, 24);
+            cfpseye.TabIndex = 25;
+            cfpseye.TabStop = false;
+            cfpseye.UseVisualStyleBackColor = false;
+            cfpseye.Click += cfpseye_Click;
             // 
             // DangKy
             // 
@@ -260,18 +308,19 @@ namespace NT1062._2a
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = NT106_2._2.Properties.Resources.download;
             ClientSize = new Size(608, 713);
+            Controls.Add(cfps);
+            Controls.Add(pseye);
             Controls.Add(linkLabel1);
             Controls.Add(button1);
             Controls.Add(label10);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(ps);
+            Controls.Add(sdt);
+            Controls.Add(email);
+            Controls.Add(username);
+            Controls.Add(fullname);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -284,6 +333,8 @@ namespace NT1062._2a
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            cfps.ResumeLayout(false);
+            cfps.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
 
@@ -292,12 +343,12 @@ namespace NT1062._2a
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox confirmps;
+        private System.Windows.Forms.TextBox ps;
+        private System.Windows.Forms.TextBox sdt;
+        private System.Windows.Forms.TextBox email;
+        private System.Windows.Forms.TextBox username;
+        private System.Windows.Forms.TextBox fullname;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -310,6 +361,9 @@ namespace NT1062._2a
         private Label label10;
         private Button button1;
         private LinkLabel linkLabel1;
+        private Button pseye;
+        private Panel cfps;
+        private Button cfpseye;
     }
 }
 

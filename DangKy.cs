@@ -1,3 +1,4 @@
+
 using NT106_2._2;
 using NT1062._2;
 using System;
@@ -122,12 +123,12 @@ namespace NT1062._2a
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string tenTK = textBox2.Text;
-            string matKhau = textBox5.Text;
-            string nhapLaiMK = textBox6.Text;
-            string email = textBox3.Text;
-            string fullname = textBox1.Text;
-            string SDT = textBox4.Text;
+            string tenTK = username.Text;
+            string matKhau = ps.Text;
+            string nhapLaiMK = confirmps.Text;
+            string email = this.email.Text;
+            string fullname = this.fullname.Text;
+            string SDT = sdt.Text;
 
             if (fullname == "")
             {
@@ -187,6 +188,23 @@ namespace NT1062._2a
         {
             this.Close();
 
+        }
+
+        private bool _showPwd = false;
+        private void pseye_Click(object sender, EventArgs e)
+        {
+            _showPwd = !_showPwd;
+            ps.UseSystemPasswordChar = !_showPwd;
+            pseye.Image = _showPwd ? NT106_2._2.Properties.Resources.eye_open :
+                NT106_2._2.Properties.Resources.eye_close;
+        }
+
+        private void cfpseye_Click(object sender, EventArgs e)
+        {
+            _showPwd = !_showPwd;
+            confirmps.UseSystemPasswordChar = !_showPwd;
+            cfpseye.Image = _showPwd ? NT106_2._2.Properties.Resources.eye_open : 
+                NT106_2._2.Properties.Resources.eye_close;
         }
     }
 }

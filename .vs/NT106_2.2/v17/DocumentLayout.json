@@ -1,34 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\",
+  "WorkspaceRootPath": "C:\\Users\\nguye\\source\\repos\\Baitap-NT106\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\users\\dell\\downloads\\baitap-nt106-main (6)\\baitap-nt106-main\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\users\\dell\\downloads\\baitap-nt106-main (6)\\baitap-nt106-main\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\users\\dell\\downloads\\baitap-nt106-main (6)\\baitap-nt106-main\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\users\\dell\\downloads\\baitap-nt106-main (6)\\baitap-nt106-main\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\users\\dell\\downloads\\baitap-nt106-main (6)\\baitap-nt106-main\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\users\\nguye\\source\\repos\\baitap-nt106\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\users\\dell\\downloads\\baitap-nt106-main (6)\\baitap-nt106-main\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\users\\dell\\downloads\\baitap-nt106-main (6)\\baitap-nt106-main\\nt106_2.2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:nt106_2.2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|c:\\users\\nguye\\source\\repos\\baitap-nt106\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7ACE851B-2313-4AA2-AE4A-FE145E3E092E}|NT106_2.2.csproj|solutionrelative:home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +18,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Home.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\Home.cs",
-              "RelativeDocumentMoniker": "Home.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\Home.cs",
-              "RelativeToolTip": "Home.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T16:21:44.104Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\Home.cs",
-              "RelativeDocumentMoniker": "Home.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\Home.cs [Design]",
-              "RelativeToolTip": "Home.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Baitap-NT106\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DangNhap.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Baitap-NT106\\DangNhap.cs [Design]",
+              "RelativeToolTip": "DangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T16:20:58.577Z",
+              "WhenOpened": "2025-10-25T07:59:07.341Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DangKy.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\DangKy.cs",
-              "RelativeDocumentMoniker": "DangKy.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\DangKy.cs",
-              "RelativeToolTip": "DangKy.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAA6wIwAAAANAAAAAAAAAA==",
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nguye\\source\\repos\\Baitap-NT106\\Home.cs",
+              "RelativeDocumentMoniker": "Home.cs",
+              "ToolTip": "C:\\Users\\nguye\\source\\repos\\Baitap-NT106\\Home.cs [Design]",
+              "RelativeToolTip": "Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T16:14:54.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DangNhap.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\DangNhap.cs",
-              "RelativeDocumentMoniker": "DangNhap.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\DangNhap.cs",
-              "RelativeToolTip": "DangNhap.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAowEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T16:10:20.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DangNhap.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\DangNhap.cs",
-              "RelativeDocumentMoniker": "DangNhap.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\DangNhap.cs [Design]",
-              "RelativeToolTip": "DangNhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T16:08:17.505Z",
+              "WhenOpened": "2025-10-25T07:59:06.675Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DangKy.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\DangKy.cs",
-              "RelativeDocumentMoniker": "DangKy.cs",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\DangKy.cs [Design]",
-              "RelativeToolTip": "DangKy.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T16:07:51.985Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NT106_2.2",
-              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\NT106_2.2.csproj",
-              "RelativeDocumentMoniker": "NT106_2.2.csproj",
-              "ToolTip": "C:\\Users\\DELL\\Downloads\\Baitap-NT106-main (6)\\Baitap-NT106-main\\NT106_2.2.csproj",
-              "RelativeToolTip": "NT106_2.2.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-08T16:07:38.765Z",
-              "EditorCaption": ""
             }
           ]
         }

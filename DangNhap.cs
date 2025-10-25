@@ -68,7 +68,6 @@ namespace NT1062._2
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -133,7 +132,7 @@ namespace NT1062._2
 
         private void richTextBox2_TextChanged(object sender, EventArgs e)
         {
-            string tentk = textBox1.Text;
+            string tentk = username.Text;
         }
 
         private void label4_Click_1(object sender, EventArgs e)
@@ -155,8 +154,8 @@ namespace NT1062._2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string username = textBox1.Text.Trim();
-            string password = textBox2.Text.Trim();
+            string username = this.username.Text.Trim();
+            string password = ps.Text.Trim();
 
             if (string.IsNullOrEmpty(username))
             {
@@ -204,6 +203,13 @@ namespace NT1062._2
             childForm.BringToFront();
             childForm.Show();
         }
-
+        private bool _showPwd = false;
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            _showPwd = !_showPwd;
+            ps.UseSystemPasswordChar = !_showPwd;
+            pseye.Image = _showPwd ? NT106_2._2.Properties.Resources.eye_open :
+                NT106_2._2.Properties.Resources.eye_close;
+        }
     }
 }
