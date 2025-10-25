@@ -1,3 +1,0 @@
-# NT106_BT_NHOM3
-
-test
